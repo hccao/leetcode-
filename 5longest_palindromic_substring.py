@@ -22,3 +22,5 @@ class Solution(object):
                     else:
                         break
         return max_s
+
+# https://discuss.leetcode.com/topic/7144/python-o-n-2-method-with-some-optimization-88ms
