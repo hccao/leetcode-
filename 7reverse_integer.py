@@ -21,6 +21,18 @@ class Solution(object):
         for item in num_list:
             rst += int(item) * step
             step *= 10
+        
+        # rst = 0
+        # while True:
+        #     if num / 10 != 0:
+        #         num1 = num / 10
+        #         num2 = num % 10
+        # 
+        #         num = num1
+        #         rst = (rst + num2) * 10
+        #     else:
+        #         rst = rst + num
+        #         break
 
         if num > 0x7FFFFFFF:
             return 0
