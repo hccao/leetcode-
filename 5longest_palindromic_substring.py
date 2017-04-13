@@ -1,3 +1,8 @@
+# Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+# 'babad' --> 'bab'
+# 'cbbd'  --> 'bb'
+# 'ccc'   --> 'ccc'
+
 class Solution(object):
     def longestPalindrome(self, s):
         """
